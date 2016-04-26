@@ -2,14 +2,10 @@ Pod::Spec.new do |s|
 
   s.name         = "Extensions"
   s.version      = "1.0.0"
-  s.summary      = ""
-
-  s.description  = <<-DESC
-                   DESC
-
+  s.summary      = "Extensions"
   s.homepage     = "https://github.com/Hequnjie/PodSpecsDemo"
 
-  s.license      = "MIT (example)"
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   s.author             = { "Hequnjie" => "360606411@qq.com" }
   s.platform     = :ios, "7.0"
