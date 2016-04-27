@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D357BC51CD08AE1006D5488 /* NSData+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D357BC31CD08AE1006D5488 /* NSData+Extensions.h */; };
+		2D357BC61CD08AE1006D5488 /* NSData+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D357BC41CD08AE1006D5488 /* NSData+Extensions.m */; };
 		2DE135B31CCF5B76000204D7 /* Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE135B21CCF5B76000204D7 /* Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D357BC31CD08AE1006D5488 /* NSData+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Extensions.h"; sourceTree = "<group>"; };
+		2D357BC41CD08AE1006D5488 /* NSData+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Extensions.m"; sourceTree = "<group>"; };
 		2DE135AF1CCF5B76000204D7 /* Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE135B21CCF5B76000204D7 /* Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extensions.h; sourceTree = "<group>"; };
 		2DE135B41CCF5B76000204D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				2DE135B21CCF5B76000204D7 /* Extensions.h */,
+				2D357BC31CD08AE1006D5488 /* NSData+Extensions.h */,
+				2D357BC41CD08AE1006D5488 /* NSData+Extensions.m */,
 				2DE135B41CCF5B76000204D7 /* Info.plist */,
 			);
 			path = Extensions;
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DE135B31CCF5B76000204D7 /* Extensions.h in Headers */,
+				2D357BC51CD08AE1006D5488 /* NSData+Extensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D357BC61CD08AE1006D5488 /* NSData+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +285,7 @@
 				2DE135B91CCF5B76000204D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
