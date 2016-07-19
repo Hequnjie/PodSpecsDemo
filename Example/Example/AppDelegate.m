@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import <SampleFramework/SampleFramework.h>
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSLog(@"%s", SampleFrameworkVersionString);
+    
     return YES;
 }
 

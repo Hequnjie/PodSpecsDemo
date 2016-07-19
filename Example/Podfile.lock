@@ -1,0 +1,35 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Common (1.0.0)
+  - Extensions (1.0.1)
+  - SampleFramework (0.0.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Common (~> 1.0.0)
+  - Extensions (~> 1.0.0)
+  - SampleFramework (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Common: 0c7b65472aa00e4873003a26e7fead2a1f037d5d
+  Extensions: b94a1258109ff7f1b2e57aed30119eb5b7265dd9
+  SampleFramework: ae1d98d662725d924000a0a593b772216f38ae5b
+
+PODFILE CHECKSUM: 7d48c339a0da28c3f5bb44a3e21f32828a5a5476
+
+COCOAPODS: 1.0.1
